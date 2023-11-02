@@ -21,6 +21,14 @@ main{
     height: 100vh;
   
 }
+section#redes-sociais img:hover{
+    border: 2px solid rgba(255, 254, 254, 0.418);
+    box-sizing: border-box;
+    transition-duration: .3s;
+}
+section#redes-sociais{
+    
+}
 section#telefone{
     position: absolute;
      height: 625px;
@@ -33,4 +41,18 @@ section#telefone{
     
   
 
+}
+iframe#tela{
+   position: relative;
+   top: 80px;
+   left: 24px;
+   width: 262px;
+   height: 471px;
+  
+}
+section#redes-sociais img{width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 4px black;
+   
 }
